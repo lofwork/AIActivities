@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Solar System animation - Pure CSS</title>
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    .continue-button {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 16px;
+      background: radial-gradient(ellipse at center, #ffd000 1%, #f9b700 39%, #f9b700 39%, #e06317 100%);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bolder;
+      text-transform: uppercase;
+      font-family: Lato;
+      letter-spacing: 0.1em;
+      margin-left: 38px;
+    }
+    .continue-button:hover {
+      background: radial-gradient(ellipse at center, #e06317 1%, #f9b700 39%, #f9b700 39%, #ffd000 100%);
+    }
+  </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='description'>
+  <br>
+  <h1> Welcome to Lab of &nbsp; &nbsp; future</h1>
+  <hr>
+  <p>
+    Lets Explore AI Based Fun Activities Together !
+  </p>
+  <p>
+    <a href="https://shadowart.withgoogle.com/?lang=en-us" target="_blank">1.shadowar</a>
+    <br>
+    <a href="https://creatability.withgoogle.com/sound-canvas/" target="_blank">2.Sound Canvas</a>
+   <br>
+   <a href="https://creatability.withgoogle.com/keyboard/" target="_blank">3.Keyboard</a>
+   <br>
+   <a href="https://creatability.withgoogle.com/body-synth/" target="_blank">4.Body Synth</a>
+   <br>
+   <a href="https://creatability.withgoogle.com/seeing-music/" target="_blank">5.Seeing Music</a>
+   <br>
+   <a href="https://andymatuschak.org/scrying-pen/" target="_blank">6.Scrying Pen</a>
+  </p>   
+  <hr>
+
+  <p class='hide'>
+    Note the css tricks for the Saturn rings (box-shadow) and reverse animation to compensate the orbit.
+  </p>
+</div>
+<div class='solar-syst'>
+  <div class='sun'></div>
+  <div class='mercury'></div>
+  <div class='venus'></div>
+  <div class='earth'></div>
+  <div class='mars'></div>
+  <div class='jupiter'></div>
+  <div class='saturn'></div>
+  <div class='uranus'></div>
+  <div class='neptune'></div>
+  <div class='pluto'></div>
+  <div class='asteroids-belt'></div>
+</div>
+<!-- partial -->
+</body>
+</html>
