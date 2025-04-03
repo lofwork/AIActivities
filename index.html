@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lab Of Future Fun Activities</title>
   <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300'>
@@ -26,6 +27,38 @@
     }
     .continue-button:hover {
       background: radial-gradient(ellipse at center, #e06317 1%, #f9b700 39%, #f9b700 39%, #ffd000 100%);
+    }
+    
+    .description {
+      max-width: 90%;
+      margin: auto;
+   
+    }
+    
+    .solar-syst {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    @media (max-width: 768px) {
+      .description h1 {
+        font-size: 1.5em;
+      }
+      .continue-button {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .description h1 {
+        font-size: 1.2em;
+      }
+      .continue-button {
+        font-size: 12px;
+        padding: 6px 12px;
+      }
     }
   </style>
 </head>
